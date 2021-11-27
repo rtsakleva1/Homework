@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simpleFormControl</title>
+</head>
+<body>
+
+    <form action="./actionPage.php" method="get">
+        <fieldset>
+            <legend>Лични данни</legend>
+            Име: <input type="text" name="firstName" placeholder="малко име, на латиница"><br>
+            Фамилия: <input type="text" name="surName" placeholder="фамилия, на латиница"><br>
+            Пол: мъж: <input type="radio" name="gender" value="m"> жена: <input type="radio" name="gender" value="f">
+        </fieldset>
+    </form>
+    
+    Коментар: <br><textarea name="comment" id="comment" placeholder="напишете ни нещо" cols="20" rows="2"></textarea><br>
+    <button type="submit">Изпрати</button>
+    
+</body>
+</html>
